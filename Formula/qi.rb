@@ -2,16 +2,16 @@
 class Qi < Formula
   desc ""
   homepage ""
-  version "0.0.6"
+  version "0.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/razvvan/qi/releases/download/v0.0.6/qi_0.0.6_Darwin_x86_64.tar.gz"
-    sha256 "edbd5354f223ebbcec7076ebd0ccb6e403c1133323c2683c250f14a1a198b236"
+    url "https://github.com/razvvan/qi/releases/download/v0.0.1/qi_0.0.1_Darwin_x86_64.tar.gz"
+    sha256 "a37e4ce1118192d192302aa61c3a31884d95e5ac04472d601539442dba503e84"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/razvvan/qi/releases/download/v0.0.6/qi_0.0.6_Linux_x86_64.tar.gz"
-      sha256 "9810c40d9cf1312f9b99d0ac9e0a86ead178310ae58bc315520a73e041d81593"
+      url "https://github.com/razvvan/qi/releases/download/v0.0.1/qi_0.0.1_Linux_x86_64.tar.gz"
+      sha256 "4aaa626176908c344a4031ab1e302e86ccba6836158d05d3ab9b5f8ff529af2d"
     end
   end
 
